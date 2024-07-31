@@ -45,7 +45,6 @@ public class Jugador implements Serializable{
 		return Objects.equals(nombre, other.nombre);
 	}
 	 
-	//TODO Estadisticas recuperar ganadas de algun lado y luego sumar de a una
 	
 	public void setGanadas(int ganadas) {
 		this.ganadas = ganadas;
